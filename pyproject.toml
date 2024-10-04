@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "traffic-accidents"
+version = "0.1.0"
+description = "Data science project with real open datasets for fun and profit."
+authors = ["Paulo Nascimento <paulo.andarilho@gmail>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.10.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pydantic = "^2.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
