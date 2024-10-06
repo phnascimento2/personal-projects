@@ -21,6 +21,9 @@ MODELS_DIR = PROJ_ROOT / "models"
 REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
+CKAN_API_ENDPOINT = 'http://dados.recife.pe.gov.br/api/3/action/package_show'
+DEFAULT_PACKAGE_ID = 'acidentes-de-transito-com-e-sem-vitimas'
+
 # If tqdm is installed, configure loguru with tqdm.write
 # https://github.com/Delgan/loguru/issues/135
 try:
